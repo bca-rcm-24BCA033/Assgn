@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Student Grade Calculator</h1>
+
+    <input type="number" id="sub1" placeholder="Subject 1 Marks">
+
+    <input type="number" id="sub2" placeholder="Subject 2 Marks">
+
+    <input type="number" id="sub3" placeholder="Subject 3 Marks">
+
+    <input type="number" id="sub4" placeholder="Subject 4 Marks">
+
+    <input type="number" id="sub5" placeholder="Subject 5 Marks">
+
+    <button onclick="calculateGrade()">
+        Calculate Result
+    </button>
+
+    <div class="result">
+
+        <h3>Total Marks: <span id="total">0</span></h3>
+
+        <h3>Percentage: <span id="percentage">0</span>%</h3>
+
+        <h3>Grade: <span id="grade">-</span></h3>
+
+        <h3>Status: <span id="status">-</span></h3>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
